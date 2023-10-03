@@ -14,7 +14,7 @@
     object-fit: cover;
 }
 
-.lmj-plant-item-price {
+span .lmj-plant-item-price {
     position: absolute;
     border-radius: 20px 20px 20px 20px;
     background-color: #31b472;
@@ -23,4 +23,5 @@
     right: 0;
     top: 0;
     font-weight: 500;
+    margin-left: 2rem;
 }

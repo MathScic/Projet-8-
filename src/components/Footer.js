@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "../styles/Footer.css";
+import Cart from "./cart";
 
-function Footer() {
+function Footer(Cart) {
   const [inputValue, setInputValue] = useState("");
 
   function handleInput(e) {
